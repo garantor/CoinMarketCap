@@ -1,16 +1,27 @@
+
+
+### Importing widgets Needed for Ui from PyQt5 ###
+
 from PyQt5.uic import loadUiType
-from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import *
 import sys
-import os
 import requests
 
+
+###  Loading The Ui ###
 main, _ = loadUiType('newPrice.ui')
+
+
+## Coin MarketCap API Key #####
 CMC_API_KEY = 'a8f73877-e12b-4e93-9683-e213e4a42379'
 
+
+## Smple of Currencies ## 
 fiat = ("USD","DZD","ARS","AMD","AUD","AZN","BHD", "BDT","BYN","BMD","CNY","EGP","EUR","INR","NZD",
 "NGN","GBP","QAR","KRW","UGX")
+
+
+## Main Class  ##
 
 class MainAll(QMainWindow, main):
     def __init__(self):
@@ -26,6 +37,10 @@ class MainAll(QMainWindow, main):
         self.pushButton.clicked.connect(self.cmc_api_func)
 
 
+
+#####################################################################
+## function to fetch data from Coin MarketCap using there free Api ##
+######################################################################
     def cmc_api_func(self):       
         currency = self.comboBox_2.currentText()
         url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'

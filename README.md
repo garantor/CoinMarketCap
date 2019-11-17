@@ -6,3 +6,12 @@ use cmc ranking numbers to get the current price, total supply circulating suppy
 # REQUIRMENT
 pyqt5 install
 python
+
+# Screenshot 
+
+
+![](cmc1.jpg)
+
+---
+
+![](cmc2.jpg)
