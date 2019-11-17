@@ -15,3 +15,12 @@ python
 ---
 
 ![](cmc2.jpg)
+
+---
+![](cmc3.jpg)
+
+
+# CONTACT INFO
+- [PROFILE](https://github.com/garantor/)
+---
+- [LINKEDIN](https://www.linkedin.com/in/afolabisunday/)
