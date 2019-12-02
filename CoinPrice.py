@@ -41,6 +41,7 @@ class MainAll(QMainWindow, main):
 #####################################################################
 ## function to fetch data from Coin MarketCap using there free Api ##
 ######################################################################
+
     def cmc_api_func(self):       
         currency = self.comboBox_2.currentText()
         url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
@@ -70,8 +71,9 @@ class MainAll(QMainWindow, main):
         
 
 
-
-
+########################
+## Runing Application ##
+########################
 def RunMain():
     app =QApplication(sys.argv)
     window = MainAll()

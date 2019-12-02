@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>CoinMarketCap</string>
   </property>
   <property name="styleSheet">
    <string notr="true">font: 75 12pt &quot;Verdana&quot;;
