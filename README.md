@@ -19,20 +19,22 @@ Free Api from Coinmarketcap
 ![](cmc2.jpg)
 
 ---
-![](cmc3.jpg)
+
+![](cmc3.png)
 
 ---
-![](cmc4.jpg)
+
+![](cmc4.png)
 
 
 ---
-![](cmc5.jpg)
+![](cmc5.png)
 
 ---
-![](cmc6.jpg)
+![](cmc6.png)
 
 ---
-![](cmc7.jpg)
+![](cmc7.png)
 
 # CONTACT INFO
 - [PROFILE](https://github.com/garantor/)
